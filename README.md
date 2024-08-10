@@ -41,6 +41,10 @@ Explore the code on GitHub: [SVG Logo Generator Repository](https://github.com/c
 - **Error Handling**: Includes basic error handling to manage potential issues during user input and file generation.
 - **Cross-Platform Compatibility**: The application runs on any platform that supports Node.js, making it accessible to a wide audience.
 
+Screenshots:
+![Screenshot 2024-08-10 at 11 10 36 AM](https://github.com/user-attachments/assets/a18d984f-7954-49d5-849d-fd9c97824438)
+
+<img width="479" alt="Screenshot 2024-08-10 at 11 10 56 AM" src="https://github.com/user-attachments/assets/590e2121-cfea-4a09-92a4-5572303ec54b">
 
 ## Table of Contents
 
@@ -49,7 +53,6 @@ Explore the code on GitHub: [SVG Logo Generator Repository](https://github.com/c
 - [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
-- [Questions](#questions)
 
 ## Installation
 
@@ -95,10 +98,4 @@ Copy code
 npm test
 This will run the tests to ensure that the shape classes are correctly implemented and that the SVG generation logic works as expected.
 
-Screenshots:
 
-
-
-
-![Screenshot 2024-08-10 at 11 10 36 AM](https://github.com/user-attachments/assets/335b4da4-ec00-4ee1-bc0a-8d099e9ad1e5)
-<img width="479" alt="Screenshot 2024-08-10 at 11 10 56 AM" src="https://github.com/user-attachments/assets/fd109d8b-3741-4395-a127-d026cfe5d5ca">
