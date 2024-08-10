@@ -12,7 +12,7 @@ Watch the video demonstration here: [SVG Logo Generator Demonstration](https://d
 
 ## Link to GitHub Repository
 
-Explore the code on GitHub: [SVG Logo Generator Repository](https://github.com/chrispychips12/potential-enigma)
+Explore the code on GitHub: [SVG Logo Generator Repository](https://github.com/chrispychips12/svg-logo-generator)
 
 ## User Story
 
@@ -60,7 +60,7 @@ To install the necessary dependencies, run the following command:
 
 ```bash
 npm install
-
+```
 Usage
 
 To use the application, run the following command:
