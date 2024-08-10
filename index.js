@@ -1,5 +1,6 @@
 // Import the inquirer package to prompt the user for input
-const inquirer = require('inquirer');
+const inquirer = require('inquirer').default;
+
 // Import the built-in fs (file system) module to write the SVG file
 const fs = require('fs');
 // Import the shape classes
