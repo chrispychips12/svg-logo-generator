@@ -6,13 +6,13 @@ This Node.js command-line application allows users to generate a simple logo and
 
 ## Link to Video Demonstration
 
-Watch the video demonstration here: [SVG Logo Generator Demonstration](https://drive.google.com/file/d/1Krsv0T3vEDFNzyZzRhzKbdCoJLMZq8vU/view?pli=1)
+Watch the video demonstration here: [SVG Logo Generator Demonstration]()
 
 **Please change video quality to 1080P for best viewing experience.**
 
 ## Link to GitHub Repository
 
-Explore the code on GitHub: [SVG Logo Generator Repository](https://github.com/chrispychips12/potential-enigma)
+Explore the code on GitHub: [SVG Logo Generator Repository](https://github.com/chrispychips12/svg-logo-generator)
 
 ## User Story
 
