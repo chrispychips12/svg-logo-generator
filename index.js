@@ -32,3 +32,54 @@ function promptUser() {
     }
   ]);
 }
+
+// Function to generate the SVG based on user input
+function generateSVG({ text, textColor, shape, shapeColor }) {
+    let selectedShape;
+  
+    // Create an instance of the selected shape class
+    switch (shape) {
+      case 'Triangle':
+        selectedShape = new Triangle();
+        break;
+      case 'Circle':
+        selectedShape = new Circle();
+        break;
+      case 'Square':
+        selectedShape = new Square();
+        break;
+    }
+  
+    // Set the color of the shape
+    selectedShape.setColor(shapeColor);
+  
+    // Return the complete SVG string
+    return `
+  <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+    ${selectedShape.render()}
+    <text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${text}</text>
+  </svg>`;
+  }
+  
+  // Main function to run the application
+  async function run() {
+    try {
+      // Prompt the user for input
+      const answers = await promptUser();
+  
+      // Generate the SVG based on user input
+      const svgContent = generateSVG(answers);
+  
+      // Write the SVG content to a file named 'logo.svg'
+      fs.writeFileSync('logo.svg', svgContent);
+  
+      // Notify the user that the logo has been generated
+      console.log('Generated logo.svg');
+    } catch (error) {
+      console.error('Error generating SVG:', error);
+    }
+  }
+  
+  // Run the application
+  run();
+  
